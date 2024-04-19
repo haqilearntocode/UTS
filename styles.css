@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    width: 100%;
+}
+
+.guide{
+    text-align: center;
+}
+img{
+    width: 400px;
+    height: 300px;
+}
+
+header, footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+.attraction {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: calc(60% - 10px);
+}
+
+.attraction h3 {
+    margin-top: 0;
+}
+
+.attraction p{
+    text-align: justify;
+}
+
+.overview p {
+    font-style: italic;
+    text-align: justify;
+}
+
+.overview{
+    display: inline-block;
+    width: 60%;
+}
+
+#overview{
+    float: left;
+            width: 400px;
+            height: 300px;
+}
+
